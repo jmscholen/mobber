@@ -1,28 +1,504 @@
-.body {
+li {
+	display: inline;
+	
+
+
+		}
+li.u2_pic_header {
+	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 24px;
+	margin-left: 20px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+li.u2_pic_header_time {
+	color: white;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 15px;
+	margin-left: 430px;
+	margin-top: 18px;
+	position: absolute;
+	letter-spacing: .70px;
+}
+ul.nav {
+	display: inline;
+	width: 888px;
+	height: 30px;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
+	float: left;
+
+		}	
+
+.nav_bar {
+ 	height: 62px;
+ 	width: 1500px;
+ 	background: linear-gradient(rgb(84,84,84), rgb(21,21,21));
+
+}
+	
+
+.logo {
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+	width: 62px; /*or your image's width*/
+	height:48px; /*or your image's height*/
+	margin-left: 278px;
+	margin-top: 10px;
+	padding-top: 0;
+	display: inline;
+	/*position: absolute;	*/
+	float: left;
+}
+
+.nav_head {
+	height: 35px;
+	width: 850px;
+	display: inline;
+	/*position: absolute;*/
+	margin-left: 0px;
+	margin-top: 0px;
+	float:left;
 
 
 }
 
-.nav_bar {
- 	height: 60px;
- 	width: 100%;
- 	background-color: black;
+.mobber {
+	text-align: center;
+	display: inline;
+	color: white;
+	font-weight: bold;
+	font-family: 'Old Standard TT', serif;
+	font-size: 120%;
+	text-transform: scaleY(.9);
+	float:left;
+	margin-top: 20px;
+	margin-left: 10px;
 
+
+
+}
+
+.find_mob {
+	text-align: center;
+	/*display: inline;*/
+	color: white;
+	margin-top: 25px;
+	margin-left: 60px;
+	font-family: 'Julius Sans One', sans-serif; 
+	font-size: 14px;
+	float: left
+	
+}
+
+.start_mob {
+	text-align: center;
+	/*display: inline;*/
+	color: white;
+	margin-top: 25px;
+	margin-left: 40px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 14px;
+	float: left;
+}
+
+.user_pic {
+	background-image: url('images/johnm.png');
+	background-repeat: no-repeat;
+	width: 62px; /*or your image's width*/
+	height:48px; /*or your image's height*/
+	margin-left: 0px;
+	margin-top: 5px;
+	padding-top: 0;
+	display: inline;
+	float: right;
+	/*position: absolute;	*/
+}
+
+.user_status {
+	/*text-align: right;*/
+	/*display: inline;*/
+	color: white;
+	margin-top: 20px;
+	margin-left: 0px;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 15px;
+	float: right;
 
 }
 
 .header_bar {
-	height: 90px;
- 	width: 100%;
+	height: 86px;
+ 	width: 1500px;
  	background-color: white;
 
 }
 
+.tag_line {
+	margin-left: 245px;
+	font-family: 'Didact Gothic', sans-serif;
+	color: rgb(87,87,87);
+	font-size: 28px;
+	letter-spacing: .75px;
+	word-spacing: 2px;
+}
+
 .main_bar {
+	height: 579px;
+ 	width: 1500px;
+ 	background-color: rgb(242,240,236);
+ 	z-index: -1; position:relative;
+}
+
+.picture {
+	background-image: url(http://placekitten.com/620/400);
+	background-repeat: no-repeat;
+	width: 620px; /*or your image's width*/
+	height:400px; /*or your image's height*/
+	margin-left: 278px;
+	margin-top: 30px;
+	padding-top: 0;
+	/*position: absolute;	*/
+	float: left;
+
+}
+.picture_head {
+  width:620px;
+  height:55px;
+  margin-left:0px;
+  margin-top: 0px;
+  background: black;
+  /*border:1px solid black;*/
+  opacity:0.7;
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+
+  }
+
+.picture_header {
+	display: inline;
+	list-style-type: none;
+	padding-left: 0px;
+	margin-left: 0px;
 
 }
 
-.info_bar {
+.clock_img {
+	background-image: url('images/clock.png');
+	background-repeat: no-repeat;
+	width: 25px; /*or your image's width*/
+	height:25px; /*or your image's height*/
+	margin-left: 405px;
+	margin-top: 20px;
+	padding-top: 0;
+	display: inline;
+	position: absolute;	
 
+}	
+
+.picture_base {
+	width:620px;
+  height:89px;
+  margin-left:0px;
+  margin-top: 345px;
+  background: rgb(208,205,198);
+  /*border:1px solid black;*/
+}  
+
+.banner {*/
+	position: relative;
+	width: 80px;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 6px 20px 6px 20px;
+	margin: 30px 10px 10px -6px;
+	color: white;
+	background-color: #ffe100;
+	?
+	-webkit-box-shadow: 0px 2px 4px #888;
+	-moz-box-shadow: 0px 2px 4px #888;
+	box-shadow: 0px 2px 4px #888;
+}
+
+}  
+
+.pic_base_text {
+	font-family: 'Didact Gothic', sans-serif;
+ 	font-size: 17px;
+ 	font-style: italic;
+	color: black;
+	/*text-align: left;*/
+	/*display: block;*/
+	padding-left: 100px;
+	padding-top: 20px;
+
+  
+  }
+
+
+
+.count_box {
+	width: 140px;
+	height: 150px;
+	color: white;
+	/*display: inline;*/
+	background-color: rgb(208,205,198);
+	/*position: absolute;*/
+	float: left;
+	margin-left: 21px;
+	margin-top: 28px;
+}
+
+.number {
+	font-family: 'Didact Gothic', sans-serif;
+	color: white;
+	font-size: 78px;
+	text-align: center;
+	text-shadow:0px 2px 0px rgb(177,174,169);
+	margin-top: 10px;
+}
+.mobber_cnt {
+	width:140px;
+  height:30px;
+  margin-left:0px;
+  margin-top: 10px;
+  background: rgb(182,174,162);
+  font-family: 'Julius Sans One', sans-serif; 
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  text-shadow:0px 1px 0px rgb(210,207,201);
+  float: bottom;
+  padding-top: 15px;
+}
+
+.btn_container {
+	width:306px;
+	height:60px;
+  /*background: white;*/
+  margin-left:20px;
+  margin-top:60px;
+  float: left;
+
+}
+
+.btn_mob {
+ 	background-image: -webkit-linear-gradient(top, #ffe100, #f4a700);
+  background-image: -moz-linear-gradient(top, #ffe100, #f4a700);
+  background-image: -ms-linear-gradient(top, #ffe100, #f4a700);
+  background-image: -o-linear-gradient(top, #ffe100, #f4a700);
+  background-image: linear-gradient(to bottom, #ffe100, #f4a700);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  text-shadow: 1px 2px 3px #b66700;
+  -webkit-box-shadow: 0px 1px 0px #dfdfdf;
+  -moz-box-shadow: 0px 1px 0px #dfdfdf;
+  box-shadow: 0px 1px 0px #dfdfdf;
+  font-family: 'Maven Pro', sans-serif;
+  color: #ffffff;
+  font-size: 19px;
+  padding: 20px 92px 20px 92px;
+  border: solid #f0d03f 1px;
+  text-decoration: none;
+	
+}
+.reward_cont {
+	width:290px;
+	height:70px;
+  background: white;
+  margin-left:27px;
+  margin-top:-17px;
+  float: left;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
+  z-index: -1; position:relative;
+  box-shadow: 0px 2px 0px #dfdfdf;
+  border: solid gray 1px;
+
+}
+
+.reward {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+	color: black;
+	display: block;
+	margin-top: 15px;
+	margin-left: 52px;
+	line-height: 8px;
+	font-weight: bolder;
+}
+.reward_icon {
+	background-image: url('images/reward.png');
+	background-repeat: no-repeat;
+	width: 45px; /*or your image's width*/
+	height:60px; /*or your image's height*/
+	margin-left:7px;
+	margin-top: 4px;
+	padding-top: 0;
+	float: left;
+}
+
+.reward_or {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.mob_info_cont {
+	width:273px;
+	height: 50px;
+	margin-left: 25px;
+	margin-top: 10px;
+	float: left;
+}
+
+.mob_info {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 10px;
+	color: black;
+	vertical-align: middle;
+	line-height: 8px; 
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.hline {
+border-bottom: solid #CCCCCC;
+border-bottom-width: 1px;
+width: 300px;
+}
+
+.social_media {
+	width:273px;
+	height: 50px;
+	margin-left: 25px;
+	margin-top: 10px;
+	float: left;
+}
+
+.tweet_logo {
+
+	background-image: url('images/twitter-icon.png');
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 25px;
+	/*display: block;*/
+	background-color: none;
+	/*position: absolute;*/
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.facebook_logo {
+	background-image: url('images/facebook-icon.png');
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 25px;
+	/*display: inline;*/
+	background-color: none;
+	/*position: absolute;*/
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.google1_logo {
+	background-image: url('images/google-plus-icon.png');
+	background-repeat: no-repeat;
+	width: 60px;
+	height: 25px;
+	/*display: inline;*/
+	background-color: none;
+	/*position: absolute;*/
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+
+
+
+}
+.info_bar {
+	height: 610px;
+ 	width: 1000PX;
+ 	background-color: white;
+ 	margin-left: 255px;
+
+}
+
+.info_pics {
+	background-image: url(http://placekitten.com/299/193);
+	background-repeat: no-repeat;
+	width: 300px; 
+	height:195px; 
+	margin-left: 23px;
+	margin-top: 38px;
+	padding-top: 0px;
+	float: left;
+}
+
+.info_pics_base {
+  width:300px;
+  height:55px;
+  margin-left:23px;
+  margin-top: 0px;
+  background: white;
+  /*border:1px solid black;*/
+  font-family: 'Didact Gothic', sans-serif;
+  color: white;
+  display: inline;
+  float:left;
+
+}
+
+.pic_header_time {
+	color: black;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 10px;
+	margin-left: 0px;
+	margin-top: 5px;
+	/*position: absolute;*/
+	letter-spacing: .70px;
+	float: right;
+
+}
+
+.pic_base_text {
+	font-family: 'Didact Gothic', sans-serif;
+ 	font-size: 17px;
+	color: black;
+	/*text-align: left;*/
+	/*display: block;*/
+	padding-left: 0px;
+	padding-top: 0px;
+
+}
+
+.clock_img_btm {
+	background-image: url('images/clock.png');
+	background-repeat: no-repeat;
+	width: 25px; /*or your image's width*/
+	height:25px; /*or your image's height*/
+	margin-left: 101px;
+	margin-top: 2px;
+	padding-top: 0;
+	display: inline;
+	position: absolute;	
+
+}	
+.upcoming_mobs {
+	width:942px;
+	height:237px;
+	float: left;
+	margin-top: 321px;
+
+}
+.footer_bar {
+	height: 341px;
+ 	width: 1500px;
+ 	background-color: rgb(84,83,82);
 
 }

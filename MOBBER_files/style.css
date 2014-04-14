@@ -1,0 +1,59 @@
+li {
+	display: inline;
+		}
+
+ul {
+	display: inline;
+
+		}	
+
+.nav_bar {
+ 	height: 0;
+ 	width: 1500px;
+ 	background: linear-gradient(rgb(84,84,84), rgb(21,21,21));
+
+}
+	
+
+.logo {
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+	width: 200px; /*or your image's width*/
+	height:65px; /*or your image's height*/
+	margin-left: 270px;
+	padding-top: 0;
+	display: inline-block;	
+}
+
+.nav_bar_options {
+	text-align: center;
+	display: inline;
+	color: white;
+}
+
+.header_bar {
+	height: 86px;
+ 	width: 1500px;
+ 	background-color: white;
+
+}
+
+.main_bar {
+	height: 579px;
+ 	width: 1500px;
+ 	background-color: rgb(242,240,236);
+}
+
+.info_bar {
+	height: 610px;
+ 	width: 1500px;
+ 	background-color: white;
+
+}
+
+.footer_bar {
+	height: 341px;
+ 	width: 1500px;
+ 	background-color: rgb(84,83,82);
+
+}
